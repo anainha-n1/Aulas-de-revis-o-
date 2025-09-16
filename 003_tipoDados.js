@@ -1,0 +1,10 @@
+const escola = "sesi/senai";
+console.log(typeof escola);
+const idade = 16;
+console.log(typeof idade);
+const aprovado = true;
+console.log(typeof aprovado);
+const lista = ['sesi', 2025,true];
+console.log(typeof lista);
+const objeto = {"turma": "2° B", "ano": 2025};
+onsole.log(typeof objeto);
