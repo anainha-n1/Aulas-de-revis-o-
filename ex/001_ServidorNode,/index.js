@@ -35,7 +35,7 @@ app.get('/produtos/:id', (req, res) =>{
    
 }) 
  
-pp.get('/total/:id_produto/:preco/:qtde', (req, res) => {
+app.get('/total/:id_produto/:preco/:qtde', (req, res) => {
     const id_produto = produtos[req.params.id_produto];
     const preco = (req.params.preco);
     const qtde = (req.params.qtde);
